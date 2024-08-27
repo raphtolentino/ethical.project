@@ -15,4 +15,3 @@ keyboard.wait()
 
 # -*- coding: <encoding-name> -*- 
 
-None
