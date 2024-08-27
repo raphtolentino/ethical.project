@@ -12,4 +12,4 @@ This project involves the development of a Python-based password manager designe
 ## Installation
 1. Clone the repository:
 
-   git clone https://github.com/username/ethical-hacking-project.git
+   git clone [https://github.com/username/ethical-hacking-project.git](https://github.com/raphtolentino/Ethical-Hacking-Project)
