@@ -16,7 +16,6 @@ The Ethical Hacking Project is a collection of tools and scripts designed for se
 - keystroke_logger.py: Script for capturing keystrokes.
 - requirements.txt: List of Python dependencies.
 - README.md: This file.
-- 
 ## Contributing
 - Contributions to this project are welcome! Please follow these steps:
 
