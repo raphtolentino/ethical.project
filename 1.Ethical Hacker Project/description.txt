@@ -1,0 +1,42 @@
+Date: 06/11/23
+
+TODO:
+[06/11 to 20/11]
+
+What is Keylogging ?
+- Keylogging is the act of quiet monitoring keyboard activity in the background.
+- Keystroke logging is the act of logging every key pressed on the keyboard.
+
+Why is used by hackers and companies?
+Companies:
+- Used to track employees keyboard activities.
+- Used to troubleshoot potential problems.
+Hackers:
+- Used to gain illegal information about a user/company.
+- Used to gain passwords/personal info about users/companies.
+
+Code a simple keystroke script in Python.
+
+- Research the keyboard Python library.
+	- This library could be used to automate keyboard input e.g. hotkeys
+	- Installed in a Windows 11 machine [22/11]
+	- Finish coding, and started initial troubleshooting steps in Windows 11/10 [23/11]
+	- Began troubleshooting in Linux Ubuntu [27/11]. 
+	- Started keylogging myself while using these OS's [30/11 - 30/12]
+
+[30/11 to 20/01]
+
+TODO:
+
+
+- Start analyse collected data [2m+ keystrokes] using Panda.
+- Data is being analysed betweeen clicked strokes and the frequency of strokes.
+
+[20/01 - 30/11]
+
+TODO:
+
+- Write final remarks about this project.
+- Submit findings on Linkedin.
+
+
