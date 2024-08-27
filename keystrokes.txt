@@ -78,3 +78,13 @@ ctrl
 s
 ctrl
 s
+backspace
+c
+h
+a
+n
+g
+e
+s
+ctrl
+s
