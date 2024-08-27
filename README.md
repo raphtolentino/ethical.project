@@ -30,4 +30,4 @@ Fork the repository.
 - This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
-- For any questions or support, please reach out to raphtolentino@example.com.
+- For any questions or support, please reach out to raphaelninja22@gmail.com
