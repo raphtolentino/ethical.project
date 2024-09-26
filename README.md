@@ -1,49 +1,51 @@
 # Ethical Project README
 
-**Overview**
+## Overview
+The Ethical Project is a collection of two separate projects: **Keystroke Logger** and **Password Generator**. These tools are designed to provide educational examples of keyboard event handling and password generation, respectively.
 
-The Ethical Project is an open-source platform for promoting ethical decision-making in various aspects of life, including personal, professional, and societal spheres.
+## Keystroke Logger
+-------------------
 
-**Goals**
+### Features
 
-The primary goals of this project are:
-1. To develop a robust framework for making informed, ethical decisions.
-2. To provide resources and tools to help individuals and organizations navigate complex moral dilemmas.
-3. To foster a community that values ethical thinking and behavior.
+* Logs keystrokes to a text file.
+* Supports both Linux and Windows platforms.
+* Stops logging when the Esc key is pressed.
 
-**Features**
+### Technical Details
 
-This project includes the following features:
+* Language: Python
+* Libraries: `keyboard` library for Windows and `pynput` library for Linux
 
-* **Ethical Decision-Making Framework**: A structured approach to evaluating situations and making informed decisions based on ethical principles.
-* **Scenario-Based Training**: Interactive scenarios designed to help users develop their critical thinking and decision-making skills.
-* **Case Studies**: Real-world examples of ethical dilemmas, with analysis and discussion prompts.
+## Password Generator
+----------------------
 
-**Getting Started**
+### Features
 
-To get started with the Ethical Project, follow these steps:
+* Generates strong, unique passwords based on user input (e.g., password length, character types).
+* Allows users to choose from various character sets, including uppercase letters, lowercase letters, digits, and special characters.
+* Provides feedback on the generated password's strength.
 
-1. Clone this repository: `git clone https://github.com/raphtolentino/ethical.project.git`
-2. Install dependencies: `npm install` (for Node.js) or `pip install -r requirements.txt` (for Python)
-3. Run the application: `node app.js` (for Node.js) or `python app.py` (for Python)
+### Technical Details
 
-**Contribution**
+* Language: Python
+* Libraries: `random` and `string` libraries for generating random characters and manipulating strings, respectively
 
-We welcome contributions to the Ethical Project! To get involved, please:
+## Usage
 
-1. Review our [CONTRIBUTING.md](CONTRIBUTING.md) guide for guidelines on submitting issues, pull requests, and code changes.
-2. Join our community on GitHub or other platforms to stay updated on project developments and discuss ideas.
+1. Clone the repository: `git clone https://github.com/raphtolentino/ethical.project/tree/main/password.generator`
+2. Run the script: `python password_generator.py`
 
-**License**
+## Contributing
 
-The Ethical Project is licensed under the MIT License. See the `LICENSE.txt` file for details.
+* Issues: Create issues to track bugs, feature requests, or questions related to the project.
+* Pull Requests: Submit pull requests to contribute code changes or improvements to the project.
+* Code of Conduct: Adhere to the [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) guide for maintaining a respectful and inclusive community.
 
-**Acknowledgments**
+## License
 
-We would like to acknowledge the contributions of [list contributors] who have helped shape this project.
+The project is licensed under the MIT License. See the `LICENSE.txt` file for details.
 
-**Contact**
+## Disclaimer
 
-For questions, feedback, or suggestions, please reach out to us at [insert contact information].
-
-I hope this updated README provides a better overview of the Ethical Project and its goals!
+This project is intended for educational purposes only. Unauthorized use of keystroke loggers or password generators is illegal and unethical. Always ensure you have explicit permission before using these tools.
