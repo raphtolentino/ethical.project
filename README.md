@@ -11,6 +11,7 @@ The Ethical Project is a collection of two separate projects: **Keystroke Logger
 * Logs keystrokes to a text file.
 * Supports both Linux and Windows platforms.
 * Stops logging when the Esc key is pressed.
+* File can be viewed.
 
 ### Technical Details
 
@@ -49,3 +50,4 @@ The project is licensed under the MIT License. See the `LICENSE.txt` file for de
 ## Disclaimer
 
 This project is intended for educational purposes only. Unauthorized use of keystroke loggers or password generators is illegal and unethical. Always ensure you have explicit permission before using these tools.
+
